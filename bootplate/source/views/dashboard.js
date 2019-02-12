@@ -11,7 +11,17 @@ enyo.kind({
         kind:"Button",
         content:"Click Here!!",
         ontap:"showMe"
-    }],
+    },
+    {
+        name: "details",
+        allowHtml:true
+    },
+    {
+        kind:"Button",
+        content:"Click Here (for Scroll Bar)",
+        ontap:"scrollBar"
+    }    
+    ],
 
     rendered: function(){
 
@@ -86,6 +96,16 @@ enyo.kind({
         for (var i = 0; i < this.items.length; i++) {
             detailsMarker = L.marker([this.items[i].lat, this.items[i].lng]).addTo(mymap);
         }
-    }
+    },
+
+      scrollBar: function(){
+            var self = this;
+            self.$.details.setContent("<div id='container'></div>");
+            var container=$("#container");
+            for (var i = 0; i < 100; i++) {
+                container.append("<p>"+i+"</p>");
+            }
+            $('#container').mCustomScrollbar();
+        }
 
 });

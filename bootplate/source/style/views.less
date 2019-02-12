@@ -1,0 +1,70 @@
+.ash-bricks {
+    width: 100%;
+    height: 100%;
+    background-color: #EFF7FA;
+}
+
+.bricksplace {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 98%;
+    height: 100%
+}
+
+.bigBrickA {
+    height: 95%;
+}
+
+.bigBrickB {
+    height: 5%;
+}
+
+.heading {
+    height: 5%;
+}
+
+.content {
+    height: 95%;
+}
+
+.bricks {
+    display: inline-block;
+    background: gray;
+    width: 120px;
+    height: 120Px;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bricks .imageclass {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.bricks>.bricks-child {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background: rgba(51, 51, 51, 0.8);
+    margin-left: 0;
+    width: 100%;
+}
+
+.bricks:hover>.bricks-child {
+    display: block;
+}
+
+.imagefont {
+    margin: 7px;
+    padding-left: 7px;
+    color:#FFFFFF;
+   
+}
+.imagefont:hover{
+   color:#91d2f7;
+}

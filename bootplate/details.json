@@ -1,0 +1,31 @@
+
+[{
+    "name":"Goroka",
+    "city":"Goroka, Papua New Guinea",
+    "iata_faa":"GKA",
+    "icao":"AYGA",
+    "lat":16.827175,
+    "lng": 81.514714,
+    "alt":5282,
+    "tz":"Pacific/Port_Moresby"
+  },
+  {
+    "name":"San Diego Old Town Transit Center",
+    "city":"San Diego, United States",
+    "iata_faa":"OLT",
+    "icao":"YMCQA",
+    "lat":16.806139, 
+    "lng":81.533854,
+    "alt":0,
+    "tz":"America/Los_Angeles"
+  },
+{
+    "name":"Madang",
+    "city":"Madang, Papua New Guinea",
+    "iata_faa":"MAG",
+    "icao":"AYMD",
+    "lat":16.819616, 
+    "lng":81.529648,
+    "alt":20,
+    "tz":"Pacific/Port_Moresby"
+}]
